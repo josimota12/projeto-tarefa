@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #f3e4d1;
+}
+
+.container-cabecalho {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+}
+
+.container-cabecalho ul,
+li,a {
+    display: flex;
+    padding: 9px;
+    color: #3a2407;
+    text-decoration: none;
+}
+
+.container-jogos {
+    
+    justify-content: center;
+}
+.container-jogos h1{
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Iso', cursive;
+    
+}
+.container-jogos .jogos{
+    display: flex;
+    padding: 4%;
+}
+.jogos img{
+    width: 30%;
+    margin: 5% auto ;
+}
+.quemSomos{
+    width: 100%;
+    background-color: #3a2407;
+}
+.quemSomos h2{
+    color: #c37819;
+}
+.quemSomos p{
+    color: #ffffff;
+    font-family: 'Bungee', cursive;
+    font-family: 'Crimson Text', serif;
+} 
+footer{
+    display: flex;
+    width: 100%;
+    margin-top: 45px;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes img{
+    width: 50px;
+    height: 50px;
+}
